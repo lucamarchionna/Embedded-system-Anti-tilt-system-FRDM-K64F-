@@ -1,0 +1,2 @@
+# Embedded-system-Anti-tilt-system-FRDM-K64F-
+In this project, I have built an anti-tilt system by using an 3-axis accelerometer for cargo application. Every 100ms, the embedded system takes over the accelerations along the three dimensional axis and compute the inclination of the board. Whenever the board inclination is greater than 15 degrees, a warning signal is sent through the blinking of red led. Conversely, the green led is activate in no waning situation. Furthermore, the calibration phase at beginning is denoted by the blue led.
